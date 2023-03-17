@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Prata&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  color: rebeccapurple; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsb0dBQVk7QUFLWjtFQUNFLHNCQUFzQjtFQUN0QixVQUFVO0VBQ1YsU0FBUyxFQUFBOztBQUdYO0VBQ0Usb0JBQW9CLEVBQUEiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCB1cmwoXCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PUludGVyOndnaHRANDAwOzcwMCZmYW1pbHk9UHJhdGEmZGlzcGxheT1zd2FwXCIpO1xuXG4kZm9udC1mYW1pbHktaGVhZGluZzogXCJQcmF0YVwiLCBzZXJpZjtcbiRmb250LWZhbWlseS1ib2R5OiBcIkludGVyXCIsIHNhbnMtc2VyaWY7XG5cbioge1xuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICBwYWRkaW5nOiAwO1xuICBtYXJnaW46IDA7XG59XG5cbmgxIHtcbiAgY29sb3I6IHJlYmVjY2FwdXJwbGU7XG59XG4iXX0= */
