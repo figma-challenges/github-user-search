@@ -1,1 +1,0 @@
-@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap);@use "sass:map";*{box-sizing:border-box;padding:0;margin:0}body{font-family:"Space Mono",monospace}h1,h2{font-weight:700}h3,h4,p{font-weight:400}.container{max-width:1440px;width:100%;margin:0 auto}
