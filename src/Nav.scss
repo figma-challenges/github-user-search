@@ -1,0 +1,12 @@
+@import './index.scss';
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 31px;
+    h1 {
+        font-size: 26px;
+        color: $lightMode-black;
+    }
+}

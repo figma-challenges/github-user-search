@@ -1,0 +1,29 @@
+@import "./index.scss";
+
+div {
+  margin: 1rem 0;
+}
+
+.card {
+  background-color: $lightMode-white;
+  padding: 33px 24px;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  .card-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 70px;
+      height: 70px;
+      max-width: 100%;
+    }
+    .card-grid {
+      display: grid;
+      text-align: left;
+    }
+  }
+  .card-description {
+    text-align: left;
+  }
+}
