@@ -1,29 +1,61 @@
 @import "./index.scss";
 
-div {
-  margin: 1rem 0;
-}
-
 .card {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0;
   background-color: $lightMode-white;
-  padding: 33px 24px;
+  // padding: 33px 24px;
+  padding: 48px;
   box-shadow: $box-shadow;
   border-radius: $border-radius;
-  .card-profile {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  .card-img {
+    padding-right: 37px;
     img {
-      width: 70px;
-      height: 70px;
+      width: clamp(4.375rem, 2.0823rem + 11.4634vw, 7.3125rem);
+      height: clamp(4.375rem, 2.0823rem + 11.4634vw, 7.3125rem);
       max-width: 100%;
     }
-    .card-grid {
-      display: grid;
-      text-align: left;
-    }
   }
-  .card-description {
-    text-align: left;
+  .card-grid {
+    .card-profile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .card-details {
+        display: flex;
+        align-items: baseline;
+        text-align: left;
+        gap: 100px;
+      }
+    }
+    .card-description {
+      text-align: left;
+      .card-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: #f6f8ff;
+        border-radius: 10px;
+        padding: 15px 32px;
+      }
+    }
+    .card-socials {
+      max-width: 480px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto;
+      margin: 0 auto;
+      // justify-content: space-between;
+      gap: 15px;
+      .social-items {
+        display: flex;
+        gap: 19px;
+        img {
+          width: auto;
+          height: auto;
+        }
+      }
+    }
   }
 }

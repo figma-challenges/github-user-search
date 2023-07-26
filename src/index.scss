@@ -35,7 +35,7 @@ $lightMode-gray: #697c9a;
 $lightMode-bluegray: #4b6a9b;
 $lightMode-navyblue: #2b3442;
 $lightMode-bluewhite: #f6f8ff;
-$lightMode-white: #fefefe;
+$lightMode-white: #FEFEFE;
 $box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
 
 // Dark mode colors
@@ -57,11 +57,12 @@ $theme-colors: (
 }
 
 body {
-  // display: flex;
-  // place-items: center;
+  display: flex;
+  place-items: center;
   min-width: 320px;
   min-height: 100vh;
   font-family: $font-family;
+  background: #F6F8FF;
 }
 
 h1,
@@ -76,7 +77,7 @@ p {
 }
 
 .container {
-  max-width: 760px;
+  max-width: 730px;
   width: 100%;
   margin: 0 auto;
 }

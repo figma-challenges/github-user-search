@@ -4,7 +4,7 @@ import "./Search.scss";
 const Search = () => {
   return (
     <>
-      <div>This is where the search bar will go</div>
+      <div className="search">This is where the search bar will go</div>
     </>
   );
 };
