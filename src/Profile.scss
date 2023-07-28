@@ -5,7 +5,6 @@
   grid-template-columns: auto auto;
   margin: 0;
   background-color: $lightMode-white;
-  // padding: 33px 24px;
   padding: 48px;
   box-shadow: $box-shadow;
   border-radius: $border-radius;
@@ -18,26 +17,71 @@
     }
   }
   .card-grid {
+    display: grid;
+    gap: 32px;
     .card-profile {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
       .card-details {
         display: flex;
+        justify-content: space-between;
         align-items: baseline;
-        text-align: left;
-        gap: 100px;
+        p {
+          color: $lightMode-gray;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        .card-details-group {
+          h2 {
+            color: #2b3442;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+          a {
+            text-decoration: none;
+            color: $lightMode-blue;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
       }
     }
-    .card-description {
+    .card-description p {
       text-align: left;
-      .card-flex {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        background: #f6f8ff;
-        border-radius: 10px;
-        padding: 15px 32px;
+      color: $lightMode-bluegray;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px; /* 166.667% */
+    }
+    .card-flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      background: $lightMode-bluewhite;
+      border-radius: 10px;
+      padding: 0 32px;
+      text-align: left;
+      .card-items {
+        p {
+          color: $lightMode-bluegray;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        span {
+          color: $lightMode-navyblue;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: uppercase;
+        }
       }
     }
     .card-socials {
@@ -46,14 +90,22 @@
       display: grid;
       grid-template-columns: auto auto;
       margin: 0 auto;
-      // justify-content: space-between;
       gap: 15px;
       .social-items {
         display: flex;
         gap: 19px;
+        color: $lightMode-bluegray;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
         img {
           width: auto;
           height: auto;
+        }
+        a {
+          text-decoration-line: underline;
+          color: $lightMode-bluegray;
         }
       }
     }

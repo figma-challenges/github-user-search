@@ -1,11 +1,16 @@
-@import './index.scss';
+@import "./index.scss";
 
 nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    font-size: 26px;
+    color: $lightMode-black;
+  }
+  .toggle {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    h1 {
-        font-size: 26px;
-        color: $lightMode-black;
-    }
+    gap: 16px;
+  }
 }
